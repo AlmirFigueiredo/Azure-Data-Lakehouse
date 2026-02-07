@@ -1,6 +1,6 @@
 # Azure Data Lakehouse - IoT Synthetic Data Pipeline
 
-Projeto completo de **Data Lakehouse** com Microsoft Azure, implementando um pipeline de dados desde a ingestão até a disponibilização dos dados.
+Projeto completo de **Data Lakehouse** com Microsoft Azure, implementando um pipeline de dados desde a ingestão até a disponibilização dos dados. O pipeline realiza o processamento de 3 volumetrias no formato parquet: 10 GB, 40 GB e 100GB.
 
 ## 📋 Visão Geral
 
@@ -10,6 +10,7 @@ Este projeto demonstra a implementação de uma arquitetura de dados moderna uti
 - **Silver**: Dados transformados e limpos
 - **Gold**: Dados agregados e prontos para análise
 
+![Pipeline Architecture](docs/Pipeline.png)
 ---
 
 ## 📁 Estrutura do Projeto
@@ -41,8 +42,7 @@ Azure-Data-Lakehouse/
 │   └── processing_silver_chart.png # Performance do processamento Silver
 │
 └── 📁 docs/                        # 📚 Documentação Completa do Trabalho
+    ├── Pipeline.png               # Imagem do Pipeline criado
     └── TCC.pdf                    # Documento completo que engloba todos os aspectos deste trabalho, incluindo o detalhamento de cada etapa
 ```
-```
-
 
